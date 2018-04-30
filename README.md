@@ -14,10 +14,10 @@ train.py : We will use this script to train our Keras CNN, plot the accuracy/los
 classify.py : Our testing script.
 
 ### Dependencies
-Markup : * Keras
-         * Imutils
-         * cv2
-         * Numpy
+* Keras
+* Imutils
+* cv2
+* Numpy
                   
 ### How to Run
 python classify.py --model alattulis3.model --labelbin lb3.pickle --image examples/ballpoint.jpg
