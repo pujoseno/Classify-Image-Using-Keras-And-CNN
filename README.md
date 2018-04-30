@@ -20,4 +20,8 @@ classify.py : Our testing script.
 * Numpy
                   
 ### How to Run
+* Training
+python train.py --dataset dataset --model alattulis3.model --labelbin lb3.pickle
+
+* Classify
 python classify.py --model alattulis3.model --labelbin lb3.pickle --image examples/ballpoint.jpg
