@@ -6,19 +6,19 @@ we have 179 ballpoint images, 132 ruler images, and 142 eraser images with resol
 
 structure :
 
-    * Clasify images
-  --* classify.py
-  --* train.py
-  --* alattulis3.model
-  --* lb3.pickle
-  --* Model
-    --* smallervggnet.py
-  --* examples
-    --* images for testing
-  --* dataset
-    --* ballpoint
-    --* eraser
-    --* ruler
+* Clasify images
+  * classify.py
+  * train.py
+  * alattulis3.model
+  * lb3.pickle
+  * Model
+    * smallervggnet.py
+  * examples
+    * images for testing
+  * dataset
+    * ballpoint
+    * eraser
+    * ruler
 
 ### There are 3 directories:
 * dataset : Contains the three classes, each class is its own respective subdirectory to make parsing class labels easy.
