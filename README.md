@@ -1,5 +1,24 @@
 # Classify-Image-Using-Keras-And-CNN
-In this model we use smallervggnet model and 3 category from image. The Images are Ballpoint, Eraser, and Ruler images. 
+In this model we use smallervggnet model and 3 category from images. The Images are Ballpoint, Eraser, and Ruler images. 
+We get the data using crawling image in google image search using python, you can see in my blog [how to crawling image](https://thinkstudioo.blogspot.co.id/2018/03/crawling-images-in-google-images.html).
+After we have the data, we cleaning the data and choosing image with just object in image.  
+we have 179 ballpoint images, 132 ruler images, and 142 eraser images with resolution 100x100.
+
+structure :
+
+--* Clasify images
+  ---* classify.py
+  ---* train.py
+  ---* alattulis3.model
+  ---* lb3.pickle
+  ---* Model
+    ----* smallervggnet.py
+  ---* examples
+    ----* images for testing
+  ---* dataset
+    ----* ballpoint
+    ----* eraser
+    ----* ruler
 
 ### There are 3 directories:
 * dataset : Contains the three classes, each class is its own respective subdirectory to make parsing class labels easy.
