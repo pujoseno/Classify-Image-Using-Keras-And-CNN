@@ -4,8 +4,7 @@ We get the data using crawling image in google image search using python, you ca
 After we have the data, we cleaning the data and choosing image with just object in image.  
 we have 179 ballpoint images, 132 ruler images, and 142 eraser images with resolution 100x100.
 
-structure :
-
+### Structure
 * Clasify images
   * classify.py
   * train.py
