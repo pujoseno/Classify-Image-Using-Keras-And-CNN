@@ -6,7 +6,7 @@ we have 179 ballpoint images, 132 ruler images, and 142 eraser images with resol
 
 structure :
 
---* Clasify images
+    * Clasify images
   --* classify.py
   --* train.py
   --* alattulis3.model
